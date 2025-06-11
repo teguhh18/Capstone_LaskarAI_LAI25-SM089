@@ -28,8 +28,8 @@ Link Akses: [Flood Prediction Dataset](https://www.kaggle.com/datasets/naiyakhal
   Memprediksi banjir berdasarkan fitur Moon Soon Intensity (Curah hujan), Urbanization (Kepadatan penduduk), Coastal Vulnerability (Kerentanan Pesisir), Siltation (Pengendapan Sedimen), WetlandLoss (Kehilangan Lahan Basah), Deforestation (Deforestasi), dan Encroachments (Alih Fungsi Lahan).
 - **Peringatan Dini**
   Peringatan dini berupa *AMAN* dan *ALERT*. Fitur ini memberitahukan pengguna situasi dimana mereka perlu siap siaga untuk menghadapi banjir.
-- **Rekomendasi Sosialisasi**
-  Menyediakan rekomendasi kegiatan sosialisasi yang dapat dilakukan kepada masyarakat untuk meningkatkan kesiapsiagaan.
+- **Sosialisasi**
+  Menyediakan informasi kegiatan sosialisasi yang dapat dilakukan kepada masyarakat untuk meningkatkan kesiapsiagaan.
 - **About**
   Menampilkan deskripsi singkat mengenai aplikasi dan pengembang.
 - **Contact**
