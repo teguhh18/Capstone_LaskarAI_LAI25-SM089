@@ -57,14 +57,12 @@ source env/bin/activate
 # Install dependensi
 pip install --upgrade pip
 pip install -r flood_prediction_app/requirements.txt
-pip install streamlit
 ```
 **Anaconda**
 ```
 conda create --name main-ds python=3.9
 conda activate main-ds
 pip install -r flood_prediction_app/requirements.txt
-pip install streamlit
 ```
 **Shell/Terminal**
 ```
@@ -73,7 +71,6 @@ cd proyek_analisis_data
 pipenv install
 pipenv shell
 pip install -r flood_prediction_app/requirements.txt
-pip install streamlit
 ```
 **3. Buka direktori yang memiliki 🏠_Home.py in anaconda**
 ```
