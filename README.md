@@ -38,16 +38,32 @@ Link Akses: [Flood Prediction Dataset](https://www.kaggle.com/datasets/naiyakhal
 ## Cara Menjalankan Aplikasi
 
 ### **Local**
-**1. Clone repository ini ke local komputer**
+**1. Clone repository ini ke komputer lokal**
 ```
 git@github.com:teguhh18/Capstone_LaskarAI_LAI25-SM089.git
 ```
 **2. Setup Environment**
+**Menggunakan Virtualenv (Python bawaan)**
+```
+# Membuat virtual environment
+python -m venv env
+
+# Aktivasi environment (Windows)
+env\Scripts\activate
+
+# Aktivasi environment (Mac/Linux)
+source env/bin/activate
+
+# Install dependensi
+pip install --upgrade pip
+pip install -r flood_prediction_app/requirements.txt
+pip install streamlit
+```
 **Anaconda**
 ```
 conda create --name main-ds python=3.9
 conda activate main-ds
-pip install -r requirements.txt
+pip install -r flood_prediction_app/requirements.txt
 pip install streamlit
 ```
 **Shell/Terminal**
@@ -56,7 +72,7 @@ mkdir proyek_analisis_data
 cd proyek_analisis_data
 pipenv install
 pipenv shell
-pip install -r requirements.txt
+pip install -r flood_prediction_app/requirements.txt
 pip install streamlit
 ```
 **3. Buka direktori yang memiliki 🏠_Home.py in anaconda**
